@@ -1,25 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
-    color: beige;
-    text-decoration: none;
+h1{
+    text-align: center;
 }
+.site-init{
+    background-color: black;
+    padding: 50px;
+    color: white;  
+}
+
+a{
+    color: aliceblue;
+    text-decoration:none;
+    transition: color 0.2s ease-in-out;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.menu-sub{
+    display: inline-block;
+    text-align: center;
+    background-color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+/* main */
+
+
+.container1a{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.lg-text{
+
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sm-text{
+
+    font-size: 14px;
+    color: #909090;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 img{
     max-width: 100%;
 }
-/* Header */
 
-.site-init{
-    background-color: white;
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: blanchedalmond;
+    color: black; 
+}
+.gmail{
+    text-align: center;
     color: black;
-    padding: 30px;
+    
+}
+/* Galley*/
+/*.container{
+
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 300px;
+    margin-top: 80px;
+}
+
+
+.nav{
+
+    display: flex;
+    justify-content:space-between ;
 }
 
 h1{
     text-align: center;
 }
 
-.menu-sub{
+/*galley*/
+
+.blog-container{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+   /* height: 250px;
+    width: 250px;*/
+    width: 100%;
+}
+
+
+article{
+    background-color:#909090;
+    padding: 10px;
+    border-radius: 10px;display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    gap: 10px;
+    width: fit-content;
     
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover
+}
+
+
+/*.img-resize{
+
+    width: 100%;
+    height: 250%; ;
+}*/
+
+
+
+.text{
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
 }

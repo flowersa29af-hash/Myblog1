@@ -1,0 +1,12 @@
+.form-container{
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 50px;
+}
+
+.input-container{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
