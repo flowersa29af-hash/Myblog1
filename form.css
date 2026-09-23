@@ -1,12 +1,35 @@
-.form-container{
+.form-container {
     background-color: lightgrey;
     padding: 20px;
     margin: 50px;
 }
 
-.input-container{
-    display:flex;
+.input-container {
+    display: flex;
     flex-direction: row;
+    align-items: center;
     margin-bottom: 20px;
-    
+    gap: 10px;
 }
+
+.input-container label {
+    width: 15%;
+}
+
+.input-container input,
+.input-container textarea {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-send {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
