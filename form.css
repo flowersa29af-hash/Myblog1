@@ -2,8 +2,8 @@
     background-color: lightgrey;
     padding: 20px;
     margin: 50px;
+    width: 400px;
 }
-
 .input-container {
     display: flex;
     flex-direction: row;
@@ -31,5 +31,7 @@
     color: white;
     cursor: pointer;
 }
+ 
 
+ 
 
